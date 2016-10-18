@@ -1,0 +1,22 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+
+
+#app-container{
+  max-width: 960px;
+   margin: 0 auto;
+    word-spacing: 30px
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.thumbnail{
+   border: #2ecc71 solid 2px;
+   background-color: #2ecc71
+}
